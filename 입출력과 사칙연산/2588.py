@@ -1,0 +1,10 @@
+a=int(input())
+b=list(map(int,input()))
+result1=a*b[len(b)-1]
+result2=a*b[len(b)-2]
+result3=a*b[len(b)-3]
+real_result=result1+(10*result2)+(100*result3)
+print(result1)
+print(result2)
+print(result3)
+print(real_result)
